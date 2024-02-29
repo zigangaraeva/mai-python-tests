@@ -12,6 +12,7 @@ password = os.getenv("PASSWORD")
 def browser():
     service = Service('C:/chromedriver-win64/chromedriver.exe')
     driver = webdriver.Chrome(service=service)
+    driver.maximize_window()
     yield driver
     driver.quit()
 

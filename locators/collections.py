@@ -1,0 +1,1 @@
+collections = '//span[@class="BodyNormal_BodyNormal__0hWD_" and text()="Подборки"]'

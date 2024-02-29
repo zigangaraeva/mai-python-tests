@@ -1,1 +1,0 @@
-xpath_hint_daily_pic = '//div[@class="Header_Question__C_xtZ"]'

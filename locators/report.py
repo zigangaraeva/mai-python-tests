@@ -1,0 +1,1 @@
+report = '//span[@class="BodyNormal_BodyNormal__0hWD_" and text()="Отчет"]'
