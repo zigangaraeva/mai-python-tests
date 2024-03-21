@@ -50,7 +50,8 @@ def add_channel(browser, name, type=None, identificator=None):
     wait_not_present(browser, 'XPATH', channels.add_chan_form, "Форма добавления канала присутствует на странице")
     wait_present(browser, 'XPATH', channels.chan_is_present, "Канал не добавился на страницу")
     wait_text_present(browser, 'XPATH', channels.name_is_present, name, "Название отображается некорректно")
-    wait_text_present(browser, 'XPATH', channels.id_is_present, identificator, "Идетификатор отображается некорректно")
+    wait_text_present(browser, 'XPATH', channels.id_is_present, identificator, "Идентификатор отображается некорректно")
+
 
 def delete_channel(browser):
     """ Функция удаления канала """
