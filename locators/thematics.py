@@ -23,7 +23,6 @@ chan_created = '(//div[contains(@class, "Chips_chip__bBo8l")])[1]'
 languages = "//button[contains(@class, 'LanguageInput')]"
 russian = '(//*[contains(@class, "LanguageInput_Popover__itemLabel")])[2]'
 all_lang = '(//*[contains(@class, "LanguageInput_Popover__itemLabel")])[1]'
-lang_value = '//div[@class="Chips_chip__bBo8l"]'
 lang_dropdown = '//div[contains(@class, "Popover_Popover__b9PMk")]'
 lang_selected = '(//div[contains(@class, "Chips_chip__bBo8l")])[2]'
 
